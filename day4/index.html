@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js day 4</title>
+    <style>
+        .default_style{
+            height: 300px;
+            width:400px;
+            background:red;
+            
+            margin-bottom: 20px;
+            border-radius:10px;
+        }
+        .styleOne{
+            height: 300px;
+            width:400px;
+            background:green;
+            
+            margin-bottom: 20px;
+            border-radius:10px
+            
+        }
+        .styleTwo{
+            height: 300px;
+            width:400px;
+            background:navy;
+            
+            margin-bottom: 20px;
+            border-radius:10px
+        }
+        .styleThree{
+            height: 300px;
+            width:400px;
+            background:yellow;
+            
+            margin-bottom: 20px;
+            border-radius:10px
+        }
+        .stylefour{
+            height: 300px;
+            width:400px;
+            background:black;
+            
+            margin-bottom: 20px;
+            border-radius:10px
+        }
+        .styleFive{
+            height: 300px;
+            width:400px;
+            background:white;
+            border:10px solid black;
+            margin-bottom: 20px;
+            border-radius:10px
+        }
+        .default{
+            height: 300px;
+            width:400px;
+            background:red;
+            color:white;
+            margin-bottom: 20px;
+            border-radius:10px
+        }
+        
+      
+    </style>
+</head>
+<body>
+    
+
+   <h1 id="heading">This is Heading</h1>
+
+    <button type="button" id="changeTextBtn">Change text </button>
+    <h1 id="watchResult"></h1>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" id="firstName" placeholder="First Name"></td>
+        <tr>
+            <th>last Name</th>
+            <td><input type="text" id="lastName" placeholder="last Name"></td>
+        <tr>
+            <tr>
+                <th>Full Name</th>
+                <td><input type="text" id="fullName" placeholder="Full Name"></td>
+            <tr>
+            <tr>
+                <td></td>
+            <td><input type="button" id="fullNameBtn" value="make full name"></td>
+            </tr>
+            
+        </tr>
+    </table>
+
+<hr>
+<div id="resDiv" class="default_style"></div>
+
+<button type="button" id="styleOne"> Style One </button>
+
+<button type="button" id="styleTwo"> Style two </button>
+
+<button type="button" id="styleThree"> Style three </button>
+<button type="button" id="stylefour"> Style Four </button>
+
+<button type="button" id="styleFive"> Style five </button>
+
+<button id="default">default</button>
+<br>
+<hr>
+<form action="">
+    <table>
+        <tr>
+            <th>Full Name</th>
+            <td><input type="text" id="fulName"  required id="full Name">
+                <span id="fullNameError" style="color:red;"></span>
+            </td>
+           
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="email" id="email"></td>
+            <span id="emaiError"></span>
+        </tr>
+        <tr>
+            <th>Mobail Number</th>
+            <td><input type="text" id="mobaile"> </td>
+            <span id="mobailError"></span>
+        </tr>
+        <tr>
+            <th>password</th>
+            <td><input type="pasword" id="password"></td>
+            <span id="passwordError"></span>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" id="submitBtn"></td>
+        </tr>
+    </table>
+</form>
+
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
